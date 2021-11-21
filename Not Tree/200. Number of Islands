@@ -1,0 +1,5 @@
+while controls the queue loop of every level. For example,
+-------------------------
+1 | 2 3 | 4 5 |
+-------------------------
+If you want to cancel all the "1" and count += 1, res should be written out of the while.
