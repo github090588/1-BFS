@@ -1,0 +1,4 @@
+1. while 0 <= xx < row and 0 <= yy < col and maze[xx][yy] != 1: 
+    queue.append((xx, yy))
+    
+when knocking the wall, it stops. Then we put this (xx, yy) into the queue
