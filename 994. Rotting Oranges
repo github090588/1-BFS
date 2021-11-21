@@ -1,0 +1,18 @@
+BFS:
+
+1. queue.append("initial point")
+
+2. while queue:
+       
+       for _ in range(len(queue)): (traverse every level)
+       
+       first element = queue.popleft()
+       
+       find neighbor: for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]: xx, yy = x + dx, y + dy
+       
+       # note border condition and other condition
+       
+       queue.append("nei")
+
+3. finish
+    
