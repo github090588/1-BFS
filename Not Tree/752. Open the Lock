@@ -1,0 +1,22 @@
+1. find the neighbor for string.
+
+(1) find the neighbor of str = "abc".
+alpha = string.ascii_lowercase  # "abc...z"
+for i in range(len(str)):
+    for ch in ascii:
+        nei = str[:i] + ch + str[i+1:]
+        
+(2) find the neighbor of str = "0000".
+for i, ch in enumerate(str):
+    num = int(ch)
+    res.append(str[:i] + str((num-1) % 10) + str[i+1:])
+    res.append(str[:i] + str((num+1) % 10) + str[i+1:])
+
+2. establish visited set. put 
+
+3. depth starts from -1
+
+4. judgement condition adds after finding the first element
+
+5. put the neighbor using queue.extend since it has two neighbors always
+    
