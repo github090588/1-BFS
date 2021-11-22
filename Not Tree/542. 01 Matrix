@@ -1,0 +1,5 @@
+1. count all 0, and find the neighbor 1, and at the same time, count += 1.
+
+2. establish visited set to record the visited coordinate.
+
+3. the neighbor that you find is all the nearest 1 level by level.
