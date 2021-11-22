@@ -1,0 +1,7 @@
+1. establish a graph to collect neighbor
+
+2. visited to update
+
+3. BFS to find neighbor and put into the queue
+
+4. update the result when you traverse the node
