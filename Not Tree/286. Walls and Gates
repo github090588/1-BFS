@@ -1,0 +1,20 @@
+1. there is no need to compare, since BFS will finish level by level
+
+
+1   X    3    4
+5   6    7    X
+9   X    11   X
+13  X    15   16
+
+
+queue =     3   13  |   4  7  9   |   1   11   5  |   15   1   |    16 
+
+
+2. This problem can not write BFS right after when we find the initial point.
+We should let two gates find the neighbor at the same time.
+
+3. The difference between writing right after the initial and writing seperately is that,
+if you need to count the number by a bulk, you always do BFS after find the initial points.
+
+4. see "|" if you count something until this "|". In example 01 matrix that we need to put all 0 into the queue so that the first "|"
+stops at 0 0 0 0 0 0 0 0 0 |, then we count. But if you do BFS right after first 0, then it will appear 0 |. The count will be chaotic.
