@@ -3,3 +3,5 @@
 2. establish visited set to record the visited coordinate.
 
 3. the neighbor that you find is all the nearest 1 level by level.
+
+4. Do not forget queue.append((xx, yy))!!!!
