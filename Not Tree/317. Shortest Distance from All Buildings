@@ -1,0 +1,3 @@
+1. establish distance and reach [[0] * col for _ in range(row)] to record the number
+
+2. reach[i][j] == building_num
