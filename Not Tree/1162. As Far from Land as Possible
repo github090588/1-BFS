@@ -1,1 +1,3 @@
 1. Similar to rotting orange. no need to record the number in every grid, just record the steps or levels
+
+2. note return count - 1
