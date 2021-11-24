@@ -1,0 +1,23 @@
+1. give a number, return its corresponding coordinate
+
+for example, a diagram
+
+12   11   10   9   8   7
+1    2     3   4   5   6
+
+
+Given 8, we have 7 // 6 = 1, 7 % 6 = 1, which gives r = 1, c = 1.
+Then return 6-1-1, 6-1-1 = 5, 5. (4, 4), correct.
+
+
+def label_to_position(label):
+            
+      r, c = divmod(label-1, n)
+
+      if r % 2 == 0:
+          return n-1-r, c
+          
+      else:
+          return n-1-r, n-1-c
+
+2. Note updating the label.
