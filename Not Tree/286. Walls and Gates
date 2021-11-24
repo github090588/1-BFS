@@ -18,3 +18,10 @@ if you need to count the number by a bulk, you always do BFS after find the init
 
 4. see "|" if you count something until this "|". In example 01 matrix that we need to put all 0 into the queue so that the first "|"
 stops at 0 0 0 0 0 0 0 0 0 |, then we count. But if you do BFS right after first 0, then it will appear 0 |. The count will be chaotic.
+
+5. # ending
+                    if rooms[xx][yy] == 2147483647:
+                        rooms[xx][yy] = count
+                    
+                        # put the neighbor into the queue
+                        queue.append((xx, yy))
