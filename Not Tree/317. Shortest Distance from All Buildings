@@ -1,3 +1,5 @@
 1. establish distance and reach [[0] * col for _ in range(row)] to record the number
 
 2. reach[i][j] == building_num
+
+3. (i, j, 0), 3 positions in queue
