@@ -1,0 +1,7 @@
+1. queue = deque([source])
+
+2. establish graph to show {stop: [bus1, bus2]...}
+
+3. pop the stop, and find the neighbor of its corresponding bus's stops. For example, 7 has neighbor 3, 6, 7.
+
+4. visited to record bus that we experienced before
