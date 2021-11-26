@@ -1,0 +1,14 @@
+1. write count in different places.
+
+(1) immediately after while queue. This case is equal to the case that writes after for loop find the neighbor
+
+(2) write in the for loop that finds the neighbor. If you want to count every 1, then this is also ok.
+
+
+2. Overall
+
+(1) count many "1"s as a whole entirety, after while queue, we count += 1.
+
+(2) count the number of levels like rotting orange. We use for _ in range(len(queue)) to count += 1 to finish a level.
+
+(3) count the number of every element in the queue, then the method in 1 are all ok. we prefer to write count += 1 after poping the first element.
