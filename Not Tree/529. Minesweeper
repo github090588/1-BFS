@@ -1,0 +1,12 @@
+1. def num_bombs(board, x, y):
+        count = 0
+        for dx, dy in dirr:
+            if 0 <= x + dx < row and  0 <= y + dy < col and board[x+dx][y+dy] == "M":
+                count += 1
+        return count
+
+This function helps us judge if the neighbor of this point has bomb. If it does not, then we find the neighbor.
+
+2. after poping up the first element, we only consider the case board[x][y] == "E". This is because in EX1, in the top between 1E1 is still E. We keep
+this E remained.
+
