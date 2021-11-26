@@ -1,0 +1,6 @@
+1. find the neighbor:   for coin in coins
+
+2. visited = [True] + [False] * amount
+
+3. if we can use 1 coin with amount 2 to reach 2, then later when we use 2 coins 1 + 1 to reach 2, we just skip this case since we need
+the shortes number.
