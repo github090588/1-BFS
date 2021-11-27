@@ -1,0 +1,3 @@
+[1, [4, [6]]]. Lower level will be added many times, actually, the max deep times.
+
+That is, 1 * 3 + 4 * 2 + 6 * 1 = 17.
