@@ -1,0 +1,4 @@
+1. Border will always be colored.
+
+if x == 0 or x == r - 1 or y == 0 or y == c - 1:
+    grid[x][y] = color
