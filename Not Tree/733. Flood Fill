@@ -1,0 +1,4 @@
+1. Do not forget the edge case
+
+if image[sr][sc] == newColor:
+            return image
