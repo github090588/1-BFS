@@ -1,0 +1,11 @@
+1. Note
+
+if xx < 0 or xx == row or yy < 0 or yy == col:
+      perimeter += 1
+      continue
+                                                                                                
+if grid[xx][yy] == 0:
+      perimeter += 1
+      continue
+
+in this two cases, we not only continue, but also update the result at the same time.
