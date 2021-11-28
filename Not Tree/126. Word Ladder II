@@ -1,0 +1,10 @@
+1. This time, queue is a dictionary, and key = neighbor, value is the list that we get until this neighbor. That is,
+
+    newlayer[neighbor] += [j + [neighbor] for j in layer[word]]
+
+2. Finding the 1st element, we use for word in layer, not like the standard popleft().
+
+3. backtracking: 
+wordSet -= set(newlayer.keys())
+layer = newlayer
+   
