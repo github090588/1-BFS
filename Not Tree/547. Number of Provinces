@@ -1,0 +1,11 @@
+1. Find the initial element. for i in range(s):
+
+
+2. Find the neighbor.
+
+for nei, adj in enumerate(isConnected[p]):
+                        
+    if nei not in seen and adj != 0:
+
+        # then we find the neighbor
+        queue.append(nei)
