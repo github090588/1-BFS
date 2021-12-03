@@ -7,3 +7,6 @@ For example: sentence1: The great honor for great people.
              sentence2: The perfect honor for nice people.
 
 Here great appear 2 times, but the answer will be True. if you write visited out of for loop, this will lead wrong answer.
+
+
+2. zip can pair two list and return an iterator
