@@ -1,0 +1,9 @@
+1. visited can not be written out of for w1, w2 in zip(sentence1, sentence2). This is because
+in one sentence, it may appear the same word two times.
+Then if you skip this word when you come across this word 2nd times, this will lead to False answer.
+But actually it is the similar sentence.
+
+For example: sentence1: The great honor for great people.
+             sentence2: The perfect honor for nice people.
+
+Here great appear 2 times, but the answer will be True. if you write visited out of for loop, this will lead wrong answer.
