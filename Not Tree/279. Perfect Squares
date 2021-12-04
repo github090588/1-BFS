@@ -1,0 +1,7 @@
+1. # pruning
+  if x == y:
+      return cnt # This assures us to find the result
+      
+  if x < y:
+      break  # continue is not enough, since our list is increasing, so when for example x = 3 < y = 4, 
+      then x will be less than the later y also. So break is perfect.
