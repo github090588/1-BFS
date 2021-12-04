@@ -1,0 +1,11 @@
+1. defaultdict(lambda: float("inf")): give you infinity in default.
+
+2. the first time when the stop reaches k, then it is the cheapest.
+
+3. neighbor is usually found in graph.
+
+4.judge  exit condition after poping the element. 
+
+5. To write or not write for loop to find the first element depends on the question.
+In this question, the graph with seen can judge the result. Then we do not need to do for loop.
+If starting from the src, it can not reach to dst, then we return -1 finally. There is no need to loop to dst or some other stations.
