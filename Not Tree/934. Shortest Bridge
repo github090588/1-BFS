@@ -1,0 +1,1 @@
+1. exit condition does not necessarily appear after grid[x][y]. Consider after finding the neighbor also!!!!!
